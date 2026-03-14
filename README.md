@@ -1,16 +1,18 @@
-# Meteor-Client-Jar-Archive
+# Meteor Client Jar Archive
 This repository provides prebuilt `.jar` files for older versions of Meteor Client. 
-THe official Meteor Development team does already provide the downloads for you, but for those who dont want to download a JDK, doesn't have enough RAM to do so (even though you probably do,) or need a quicker way this should be helpful.
+The official Meteor Development team does already provide the downloads for you, but for those who dont want to download a JDK, doesn't have enough RAM to do so (even though you probably do,) or need a quicker way this should be helpful.
 Please note that all code is from the official [Meteor Client GitHub.](https://github.com/MeteorDevelopment/meteor-client)
 
-# Notice for users looking for versions 1.21.4 and up
+# Notice for users looking for versions 1.21.4 and up or looking for versions older than 1.19.2.
 The Meteor Development team has started actively archiving versions for 1.21.4 and up since they've changed their versioning scheme. You can find the archive page [here.](https://meteorclient.com/archive)
+
+If you're looking for any version before 1.19.2, I unfortunately cannot provide these versions. On June 15th, 2022, the exact day the `22w24a` snapshot was released, Mojang moved their version manifest from `launchermeta.mojang.com` to `piston-meta.mojang.com`. Older tools use `launchermeta.mojang.com`, and the URL may still work but it sends a string instead of the JSON, causing a `Expected BEGIN_OBJECT but was STRING` error. Unless I can figure something out, please use VivaFabricPlus. Scroll down for Modrinth download link.
 
 # Want to play on a server using an older Minecraft version without downgrading?
 Download [VivaFabricPlus.](https://modrinth.com/mod/viafabricplus) It's a mod that allows for you to play on any server that is running an outdated version of Minecraft, and even Bedrock 1.21.130. It is not required.
 
 # Installation
-Check the `Releases` section for the version you need. **You can select any version from 1.14.4 to 1.21.3.**
+Check the `Releases` section for the version you need. **You can select any version from 1.19.2 to 1.21.3.**
 Each release is tagged with the Meteor Version number and the Minecraft Version it supports.
 Simply download the `.jar` and drop the it into your Minecraft `mods` folder.
 
